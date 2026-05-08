@@ -9,12 +9,13 @@
 ## Group Members
 
 - Aadil, Luqman
-- ELDELNGATY, ABDELRAHMAN M
-- OMAR ALI, AHMED
-- ANUJIN, SAINZOLBOO
+- Eldelngaty, Abdelrahman M
+- Omar Ali, Ahmed
+- Anujin, Sainzolboo
 - Arora, Pranay Rajesh
 - Avaiya, Om Jayeshbhai
 - Avecillas Segovia, Danilo Nicolas
+- Juntao Wen
 
 ## Executive Summary
 
@@ -205,7 +206,6 @@ Generated and build output folders such as `.gradle/`, `.idea/`, `build/`, and `
 │       ├── androidTest/
 │       └── test/
 ├── docs/
-│   ├── PRESENTATION_SCRIPT.md
 │   ├── PROJECT_STRUCTURE.md
 │   ├── README.md
 │   └── SCREENSHOT_CHECKLIST.md
@@ -362,7 +362,7 @@ Final verification commands:
 - Debug APK verified with `./gradlew assembleDebug`.
 - App prepared for emulator demonstration.
 - App can be installed on a physical Android phone through Android Studio or `./gradlew installDebug`.
-- Zoom/demo presentation script included in `docs/PRESENTATION_SCRIPT.md`.
+- Zoom/demo presentation flow documented in this README.
 - Project ready to package as a ZIP for D2L upload.
 
 ## Academic Originality Note

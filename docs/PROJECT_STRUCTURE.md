@@ -40,7 +40,6 @@ Generated folders such as `.gradle/`, `.idea/`, `build/`, and `app/build/` are e
 │       ├── androidTest/
 │       └── test/
 ├── docs/
-│   ├── PRESENTATION_SCRIPT.md
 │   ├── PROJECT_STRUCTURE.md
 │   ├── README.md
 │   └── SCREENSHOT_CHECKLIST.md
