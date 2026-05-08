@@ -1,0 +1,34 @@
+package com.example.healthmonitoringapp.ui.components
+
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.input.KeyboardType
+
+@Composable
+fun ValidatedTextField(
+    value: String,
+    onValueChange: (String) -> Unit,
+    label: String,
+    modifier: Modifier = Modifier,
+    error: String? = null,
+    keyboardType: KeyboardType = KeyboardType.Text,
+    singleLine: Boolean = true
+) {
+    OutlinedTextField(
+        value = value,
+        onValueChange = onValueChange,
+        label = { Text(label) },
+        modifier = modifier,
+        isError = error != null,
+        supportingText = {
+            if (error != null) {
+                Text(error)
+            }
+        },
+        keyboardOptions = KeyboardOptions(keyboardType = keyboardType),
+        singleLine = singleLine
+    )
+}
