@@ -16,6 +16,7 @@
 - Avaiya, Om Jayeshbhai
 - Avecillas Segovia, Danilo Nicolas
 - Juntao Wen
+- Sahil Walia
 
 ## Executive Summary
 
